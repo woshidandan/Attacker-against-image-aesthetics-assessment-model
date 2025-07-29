@@ -2,4 +2,4 @@ The paper has been accepted by IEEE TIP, and the code and related resources http
 
 More information will be released later!
 
-<img src="[https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model/blob/main/character_image.png]" width="300" height="200"> 
+<img src="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model/blob/main/character_image.png" width="400" height="600"> 
