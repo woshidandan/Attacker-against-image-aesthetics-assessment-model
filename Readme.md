@@ -41,16 +41,14 @@ Our results demonstrate that DA3Attacker effectively uncovers systemic flaws in 
 
 * ### **Installation**
 ```
-conda create -n physiqueAA python=3.10.14
-conda activate physiqueAA
-pip install -r requirements.txt
-cd ./code
-bash script.sh
+conda create -n DA3Attacker python=3.10.14
+conda activate DA3Attacker
+pip install -r requirements.txt 
 ``` 
 All resources can also download from [https://bupteducn-my.sharepoint.com/:f:/g/personal/hs19951021_bupt_edu_cn/EkU8_s72uetEgDzBloJQZzkBa0syVyElYd3yoAZJzB3XYA?e=x3FPXj]
  
 * ### **Training Steps**
-1. Download the dataset from [Baidu Netdisk](https://pan.baidu.com/s/1NgBbu6Jf4IxrynigqO028g?pwd=kvev).
+1. Download the dataset from [https://bupteducn-my.sharepoint.com/:f:/g/personal/hs19951021_bupt_edu_cn/EkU8_s72uetEgDzBloJQZzkBa0syVyElYd3yoAZJzB3XYA?e=x3FPXj].
 2. Use `train.py` to train the network.
 
 * ### **Inference**
