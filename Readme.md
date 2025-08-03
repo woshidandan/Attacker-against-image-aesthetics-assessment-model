@@ -62,7 +62,7 @@ All resources can also download from [https://bupteducn-my.sharepoint.com/:f:/g/
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model"><b>Attacker Against IAA Model【美学模型的攻击和安全评估框架】</b></a></td>
+      <td><a href="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model"><b>Attacker Against IAA Model【美学模型的安全评估和测试分析框架】</b></a></td>
       <td><b>TIP 2025</b></td>
       <td><b>Code, Dataset</b></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/woshidandan/Attacker-against-image-aesthetics-assessment-model?style=flat-square&labelColor=343b41"/></td>
