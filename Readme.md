@@ -24,6 +24,9 @@ Beijing University of Posts and Telecommunications, University of Warwick
 <img src="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model/blob/main/character_image.png" width="400" height="600" > 
 </div>
 
+[[国内的小伙伴可以看这]](https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model/blob/main/Readme_CN.md)
+This repo contains the official implementation of the **TIP 2025** paper.
+
 ## Introduction
 Image Aesthetics Assessment (IAA) aims to automatically evaluate the aesthetic quality of images, enabling applications such as photo curation, content filtering, and AI-generated content assessment. While deep learning models have achieved promising performance on IAA tasks, their widespread deployment is hindered by two critical challenges: security vulnerability and lack of interpretability. Specifically, existing black-box IAA models are easily deceived by adversarial perturbations and fail to provide meaningful explanations for their predictions.
 
@@ -34,7 +37,24 @@ DA3Attacker is designed not only to expose the vulnerabilities of IAA models but
 
 Our results demonstrate that DA3Attacker effectively uncovers systemic flaws in current IAA systems, setting a new standard for evaluating and understanding black-box aesthetic prediction models. This work provides a robust foundation for future research on secure and explainable IAA. 
 
+## Code Usage Instructions
 
+* ### **Installation**
+```
+conda create -n physiqueAA python=3.10.14
+conda activate physiqueAA
+pip install -r requirements.txt
+cd ./code
+bash script.sh
+``` 
+All resources can also download from [https://bupteducn-my.sharepoint.com/:f:/g/personal/hs19951021_bupt_edu_cn/EkU8_s72uetEgDzBloJQZzkBa0syVyElYd3yoAZJzB3XYA?e=x3FPXj]
+ 
+* ### **Training Steps**
+1. Download the dataset from [Baidu Netdisk](https://pan.baidu.com/s/1NgBbu6Jf4IxrynigqO028g?pwd=kvev).
+2. Use `train.py` to train the network.
+
+* ### **Inference**
+1. Use `inference.py` to train the network.
 
 <table>
   <thead align="center">
