@@ -21,7 +21,7 @@ Beijing University of Posts and Telecommunications, University of Warwick
 </div>
 
 
-<img src="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model/blob/main/character_image.png" width="400" height="600"> 
+<img src="https://github.com/woshidandan/Attacker-against-image-aesthetics-assessment-model/blob/main/character_image.png" width="400" height="600" text-align= "center"> 
 
 
 ## Introduction
