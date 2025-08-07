@@ -25,14 +25,7 @@ Beijing University of Posts and Telecommunications, University of Warwick
 This repo contains the official implementation of the **TIP 2025** paper.
 
 ## Introduction
-Image Aesthetics Assessment (IAA) aims to automatically evaluate the aesthetic quality of images, enabling applications such as photo curation, content filtering, and AI-generated content assessment. While deep learning models have achieved promising performance on IAA tasks, their widespread deployment is hindered by two critical challenges: security vulnerability and lack of interpretability. Specifically, existing black-box IAA models are easily deceived by adversarial perturbations and fail to provide meaningful explanations for their predictions.
-
-To address these limitations, we propose DA3Attacker, an unprecedented adversarial attack framework targeting black-box IAA models. DA3Attacker is composed of two key modules:
-(1) An Attack Diffusion Transformer (ADT) that learns latent representations of aesthetic filters through a two-stage unsupervised training process, and (2) a Filter Coordinator that adaptively combines 14 differentiable, aesthetics-oriented, modular filters to craft adversarial examples (AEs) in either restricted (imperceptible) or unrestricted (perceptible) attack modes.
-
-DA3Attacker is designed not only to expose the vulnerabilities of IAA models but also to reveal their feature dependencies and aesthetic biases through interpretable attack strategies. We evaluate our framework across 26 baseline IAA models and introduce a curated dataset of 60,000 adversarial samples (3AE) for further benchmarking and defense research.
-
-Our results demonstrate that DA3Attacker effectively uncovers systemic flaws in current IAA systems, setting a new standard for evaluating and understanding black-box aesthetic prediction models. This work provides a robust foundation for future research on secure and explainable IAA. 
+In short: We found that almost all IAA models have serious security vulnerabilities! More information is under construction.
 
 ## Code Usage Instructions
 
